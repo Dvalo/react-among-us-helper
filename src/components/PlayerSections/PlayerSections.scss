@@ -73,3 +73,9 @@
     border-bottom: 1px solid $theme-border-color;
   }
 }
+
+@media only screen and (max-width: $breakpoint-tablet-landscape) {
+  .character-wrapper {
+    flex: 0 0 45%;
+  }
+}
