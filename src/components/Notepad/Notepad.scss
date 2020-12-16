@@ -1,0 +1,27 @@
+@import "../../styles/styles.scss";
+
+/* NOTEPAD */
+.notepad {
+    @extend %section-shared;
+    display: flex;
+    flex-direction: column;
+
+    .custom-btn {
+      background: $theme-dark-orange;
+      &:hover {
+        background: $theme-dark-orange-hover;
+      }
+    }
+
+    textarea {
+      resize: none;
+      height: 100%;
+      width: 100%;
+      box-sizing: border-box;
+      background: $theme-color-dark;
+      border: 1px solid $theme-border-color;
+      color: $primary-text-color;
+      padding: 10px;
+      outline: none;
+    }
+  }

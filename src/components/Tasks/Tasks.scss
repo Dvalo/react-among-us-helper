@@ -1,0 +1,42 @@
+@import "../../styles/styles.scss";
+
+
+.task-list {
+    @extend %section-shared;
+    color: $primary-text-color;
+  }
+.map-task-tabs {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 17px;
+    background: $theme-dark-purple;
+    border-radius: 6px;
+    padding: 0 30px;
+    margin: 0 0 20px 0;
+}
+.map-task {
+    cursor: pointer;
+    padding: 10px 30px;
+    @extend %transition-shared;
+    &:hover {
+        background: $theme-dark-purple-hover;
+    }
+}
+.map-location {
+    font-weight: bold;
+}
+.active_Polus .polus, .active_Skeld .skeld, .active_MiraHQ .mirahq {
+    background: $theme-dark-purple-hover;
+}
+.task-list-wrapper {
+    display: grid;
+    height: 100%;
+    color: $primary-text-color;
+    background: $theme-color-dark;
+    border: 1px solid $theme-border-color;
+    border-radius: 6px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}

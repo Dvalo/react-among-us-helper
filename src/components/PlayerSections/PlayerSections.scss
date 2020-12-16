@@ -1,0 +1,69 @@
+@import "../../styles/styles.scss";
+
+.player-sections {
+    @extend %section-shared;
+  
+    .drop-box {
+      margin: 0 0 40px;
+      &:last-child {
+        margin: 0;
+      }
+      
+      .drop-box-title {
+        font-size: 16px;
+        color: #f5f5f5;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin: 0 0 10px;
+      }
+    }
+  
+    .hard-cleared .drop-box-title {
+      color: #42ea89;
+    }
+    .kinda-suspicious .drop-box-title {
+      color: #f7a37d;
+    }
+    .hard-suspicious .drop-box-title {
+      color: #eb8686;
+    }
+    .dead .drop-box-title {
+      color: #c34568;
+    }
+    .droppable {
+      display: flex;
+      flex-wrap: wrap;
+      min-height: 20px;
+      padding: 10px;
+      background: $theme-color-dark;
+      border-radius: 6px;
+      color: $primary-text-color;
+  
+      .character-wrapper {
+        cursor: grab;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $theme-color-lighter;
+        flex: 0 0 47%;
+        border-radius: 6px;
+        border: 1px solid $theme-border-color;
+        margin: 5px;
+        @extend %transition-shared;
+        &:hover {
+          background: $theme-color-ligher-hover;
+          border-color: $theme-border-hover;
+        }
+        .character-img img {
+          pointer-events: none;
+        }
+  
+        .character {
+          font-weight: bold;
+          text-transform: capitalize;
+          font-size: 19px;
+        }
+      }
+    }
+  
+  }
