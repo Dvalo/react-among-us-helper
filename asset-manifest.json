@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-among-us-helper/static/css/main.90289085.chunk.css",
+    "main.js": "/react-among-us-helper/static/js/main.888bd29c.chunk.js",
+    "main.js.map": "/react-among-us-helper/static/js/main.888bd29c.chunk.js.map",
+    "runtime-main.js": "/react-among-us-helper/static/js/runtime-main.3b10fc93.js",
+    "runtime-main.js.map": "/react-among-us-helper/static/js/runtime-main.3b10fc93.js.map",
+    "static/js/2.3861137e.chunk.js": "/react-among-us-helper/static/js/2.3861137e.chunk.js",
+    "static/js/2.3861137e.chunk.js.map": "/react-among-us-helper/static/js/2.3861137e.chunk.js.map",
+    "static/js/3.54a6315a.chunk.js": "/react-among-us-helper/static/js/3.54a6315a.chunk.js",
+    "static/js/3.54a6315a.chunk.js.map": "/react-among-us-helper/static/js/3.54a6315a.chunk.js.map",
+    "index.html": "/react-among-us-helper/index.html",
+    "static/css/main.90289085.chunk.css.map": "/react-among-us-helper/static/css/main.90289085.chunk.css.map",
+    "static/js/2.3861137e.chunk.js.LICENSE.txt": "/react-among-us-helper/static/js/2.3861137e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b10fc93.js",
+    "static/js/2.3861137e.chunk.js",
+    "static/css/main.90289085.chunk.css",
+    "static/js/main.888bd29c.chunk.js"
+  ]
+}
