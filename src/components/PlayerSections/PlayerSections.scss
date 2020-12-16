@@ -76,6 +76,6 @@
 
 @media only screen and (max-width: $breakpoint-tablet-landscape) {
   .character-wrapper {
-    flex: 0 0 45%;
+    flex: 0 0 45% !important;
   }
 }
