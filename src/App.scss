@@ -23,6 +23,12 @@
     background: $theme-primary-hover;
   }
 }
+@media only screen and (max-width: $breakpoint-laptop) {
+  .among-us-helper {
+    flex-direction: column;
+  }
+}
+
 /* MAPS (WIP)*/
 .maps {
   width: 55%;
